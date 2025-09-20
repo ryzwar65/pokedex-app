@@ -1,6 +1,5 @@
 const POKEMON_API_BASE = 'http://localhost:5050/api';
 
-// Cache for storing Pokemon data to avoid redundant API calls
 const pokemonCache = new Map();
 
 export const insertGroupPokemon = async (payload) => {
